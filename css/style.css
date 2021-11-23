@@ -411,7 +411,9 @@ flex-basis: auto !important;
   margin: 150px 0;
 }
 
-
+.padding-extra {
+  padding-top:150px !important
+}
 
 @media (max-width: 992px) {
   .navbar-nav {
@@ -457,6 +459,7 @@ flex-basis: auto !important;
   margin-top: 30px !important;
 margin-bottom: 40px;
   }
+
 }
 
 @media (max-width: 460px) {
@@ -479,6 +482,10 @@ margin-bottom: 40px;
   .reverse {
   margin-top: 20px !important;
 margin-bottom: 30px;
+  }
+  
+  .padding-extra {
+    padding-top: 100px !important
   }
 }
 
